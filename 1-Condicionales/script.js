@@ -50,6 +50,7 @@ if (hora>= 0 && hora <=5) { //Primera condición
     console.log("Buenas noches!")//Instruccion si no se cumple ninguna condición
 }
 
+console.log((hora>=6 && hora<=18) ? "Buenos dias": (hora>=19 && hora<=24 || hora>=1 && hora<=5) ? "Buenas noches" : "No es una hora valida" ) //ternario
 /*Operador ternario
 Se suelen usar para condicones simples con la siguiente estructura
     (condicion) ? InstruccionVerdadero : InstruccionFalso
